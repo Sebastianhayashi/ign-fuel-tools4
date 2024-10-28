@@ -17,3 +17,11 @@ curl -sSL https://raw.githubusercontent.com/Sebastianhayashi/ign-fuel-tools4/mai
 - jsoncpp-devel -> yum
 - libyaml-devel -> yum
 - libzip-devel -> yum
+
+ign fuel tools 的编译还需要：https://github.com/Tobias-Fischer/ign-tools.git
+
+ign-tools 编译方式：
+mkdir build
+cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+sudo make install
